@@ -32,47 +32,69 @@
 
         <div class="row g-4">
             <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body text-center">
-                        <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Macarons artesanales">
-                        <h3>Macarones</h3>
-                        <p class="text-muted">Delicados macarones artesanales en diferentes sabores.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="card h-100 border-0 shadow-sm" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalMacarons">
+              <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Macarons artesanales">
+            <div class="card-body text-center">
+            <h3>Macarons</h3>
+            <p class="text-muted">Delicados macarons artesanales en diferentes sabores.</p>
+        </div>
+    </div>
+</div>
+            <div class="col-md-3">
+               <div class="card h-100 border-0 shadow-sm" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalEntremets">
+               <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Entremet de pastelería fina">
+                 <div class="card-body text-center">
+                 <h3>Entremets</h3>
+            <p class="text-muted">Creaciones sofisticadas para ocasiones especiales.</p>
+        </div>
+    </div>
+</div>
 
             <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body text-center">
-                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Entremet de pastelería fina">
-                        <h3>Entremets</h3>
-                        <p class="text-muted">Creaciones sofisticadas para ocasiones especiales.</p>
-                    </div>
-                </div>
-            </div>
+    <div class="card h-100 border-0 shadow-sm" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalTortas">
+        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Torta personalizada decorada">
+        <div class="card-body text-center">
+            <h3>Tortas personalizadas</h3>
+            <p class="text-muted">Diseños únicos para celebrar tus momentos importantes.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body text-center">
-                        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Torta personalizada decorada">
-                        <h3>Tortas personalizadas</h3>
-                        <p class="text-muted">Diseños únicos para celebrar tus momentos importantes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body text-center">
-                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Croissants recién horneados">
-                        <h3>Viennoiserie</h3>
-                        <p class="text-muted">Elaboraciones artesanales para disfrutar cada día.</p>
-                    </div>
+           <div class="col-md-3">
+    <div class="card h-100 border-0 shadow-sm" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalViennoiserie">
+        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Croissants recién horneados">
+        <div class="card-body text-center">
+            <h3>Viennoiserie</h3>
+            <p class="text-muted">Elaboraciones artesanales para disfrutar cada día.</p>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </div>
     </div>
 </main>
+<div class="modal fade" id="modalMacarons" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Macarons</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Delicados macarons artesanales, elaborados con almendra molida y rellenos cremosos.</p>
+                <p class="fw-bold mb-2">Sabores disponibles:</p>
+                <ul>
+                    <li>Vainilla Madagascar</li>
+                    <li>Frambuesa</li>
+                    <li>Pistacho</li>
+                    <li>Chocolate y avellana</li>
+                    <li>Maracuyá</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <custom-footer></custom-footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
