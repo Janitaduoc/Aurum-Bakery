@@ -31,7 +31,7 @@ class Footer extends HTMLElement {
             <footer class="py-5 mt-5" style="background-color: var(--aurum-azul); color: var(--aurum-crema);">
                 <div class="container text-center">
                     <h5 style="color: var(--aurum-crema);">Aurum Bakery</h5>
-                    <p class="mb-1">Pastelería artesanal de alta costura</p>
+                    <p class="mb-1">Pastelería artesanal de alto nivel</p>
                     <p class="mb-0"><small>&copy; 2026 Aurum Bakery. Todos los derechos reservados.</small></p>
                 </div>
             </footer>
