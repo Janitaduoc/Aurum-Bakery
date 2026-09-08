@@ -1,29 +1,31 @@
 :root {
+    /* Colores Principales */
+    --aurum-fondo: #0A2B2E;
     --aurum-azul: #0f4c5c;
     --aurum-dorado: #d4af37;
     --aurum-dorado-hover: #b5952f;
     --aurum-crema: #fbfaf8;
 
-
+    /*Acentos y Botones*/
     --aurum-oscuro: #1a1a1a;
     --aurum-gris: #6c757d;
 
-
+    /*Tipografía*/
     --font-titulos: 'Playfair Display', serif;
     --font-textos: 'DM Sans', sans-serif;
 }
 
 
 body {
-    background-color: var(--aurum-crema);
-    color: var(--aurum-oscuro);
+    background-color: var(--aurum-fondo);
+    color: var(--aurum-dorado);
     font-family: var(--font-textos);
     -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-titulos);
-    color: var(--aurum-azul);
+    color: var(--aurum-crema);
     font-weight: 700;
 }
 
@@ -100,27 +102,18 @@ em, .text-accent {
 
 .carousel-indicators [data-bs-target] {
     background-color: var(--aurum-dorado);
-    height: 4px; /* Líneas un poco más gruesas */
+    height: 4px;
 }
 
-#contacto {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 3rem 2rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
-}
 
-#contacto h2 span {
-    color: var(--aurum-dorado);
-    font-style: italic;
-}
-
-custom-header, custom-footer {
+custom-header, .custom-footer {
     display: block;
     width: 100%;
+    background-color: var(--aurum-dorado);
 }
 
 .card-img-top {
     height: 220px;
     object-fit: cover;
 }
+
